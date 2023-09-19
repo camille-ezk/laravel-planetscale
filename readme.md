@@ -51,7 +51,7 @@ php artisan vendor:publish --tag=laravel-planetscale-config
 
 Then customize the values in the config. **NOTE:** If you take this approach we *STRONGLY RECOMMEND* that you still use enviroment variables or some other secrets storage at least for your service token and service token ID for security.
 
-5. Replase the `php artisan migrate` command in your deployment script or process with this:
+5. Replace the `php artisan migrate` command in your deployment script or process with this:
 
 ``` bash
 php artisan pscale:migrate
